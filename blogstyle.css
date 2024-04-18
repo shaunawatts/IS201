@@ -1,0 +1,109 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    background-color:rgba(0, 195, 255, 0.227); /* Custom background color */
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+} */
+
+header {
+    /* background: #333; */
+    color: #fff;
+    padding: 45px 0;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+    font-family: "Arial Black", sans-serif; /* Custom font family */
+    font-size: 75px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 5px;
+
+.gallery img{
+    max-height: 20%
+}
+}
+
+.family-photo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Custom styles */
+.gallery {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.family-photo img {
+    border: 2px solid #333;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+ 
